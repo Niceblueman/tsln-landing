@@ -31,3 +31,14 @@ body {
     text-wrap: balance;
   }
 }
+
+
+iframe {
+  @apply !border-0 !outline-none rounded-lg;
+}
+iframe span.text-small{
+  @apply !hidden;
+}
+iframe #root,iframe body, iframe #root>div{
+  @apply !bg-black !border-0;
+}
